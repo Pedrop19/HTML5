@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML5</title>
+<link rel="icon" type="image/x-icon" href="/images/html5.png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./css/styles.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="./css/libs.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #d65757;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+</head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="./images/LOGO.png" style="width:100%">
+  <a href="#introduccion" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <img src="./images/home.png" width="50%">
+    <p>INTRODUCCIÓN</p>
+  </a>
+  <a href="#diferencias" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <img src="./images/diferncias.png" width="70%">
+    <p>DIFERENCIAS</p>
+  </a>
+  <a href="#novedades" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <img src="./images/novedades.png" width="50%">
+    <p>NOVEDADES</p>
+  <a href="#ejemplos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <img src="./images/ejemplo.png" width="70%">
+    <p>EJEMPLOS</p>
+  </a>
+
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#introduccion" class="w3-bar-item w3-button" style="width:25% !important">INTRODUCCIÓN</a>
+    <a href="#diferencias" class="w3-bar-item w3-button" style="width:25% !important">DIFERENCIAS</a>
+    <a href="#novedades" class="w3-bar-item w3-button" style="width:25% !important">NOVEDADES</a>
+    <a href="#ejemplos" class="w3-bar-item w3-button" style="width:25% !important">EJEMPLOS</a>
+  </div>
+</div>
+
+<div class="w3-padding-large" id="main">
+
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">HTML</span> 5.</h1>
+    <p>(HyperText Markup Language, versión 5)</p>
+    <img src="./images/html5.png" alt="boy" class="w3-image" width="600" height="1108">
+  </header>
+
+
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="introduccion">
+    <h2 class="w3-text-light-grey">Introducción</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>HTML 5 es la quinta revisión importante del lenguaje básico de la World Wide Web, HTML. HTML5 específica dos variantes de sintaxis para HTML: una «clásica», HTML (text/html), conocida como HTML5, y una variante XHTML conocida como sintaxis XHTML 5 que deberá servirse con sintaxis XML (application/xhtml+xml).1​2​ Esta es la primera vez que HTML y XHTML se han desarrollado en paralelo. La versión definitiva de la quinta revisión del estándar se publicó en octubre de 2014.3
+    </p>
+    
+    <h2 class="w3-text-light-grey" id="diferencias">Diferencias entre HTML5 y HTML4/XHTML</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">HTML</li>
+          <li class="w3-padding-16">Es nativo, y por tanto independiente</li>
+          <li class="w3-padding-16">Es más semantico</li>
+          <li class="w3-padding-16">El Código es más simple</li>
+          <li class="w3-padding-16">Mayor Compatibilidad con dispositivos móviles</li>
+          <li class="w3-padding-16">Incluye la etiqueta Canvas</li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Saber Más</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">HTML5</li>
+          <li class="w3-padding-16">Nuevos elementos</li>
+          <li class="w3-padding-16">Descubrir con mayor precisión el contenido</li>
+          <li class="w3-padding-16">Nuevas formas de comunicarse con el servidor</li>
+          <li class="w3-padding-16">Posibilidad de almacenamiento local</li>
+          <li class="w3-padding-16">Excelente soporte para contenido multimedia</li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Saber Más</button>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+    
+
+    <h2 class="w3-text-light-grey" id="novedades">Principales Novedades</h2>
+    <hr style="width:200px" class="w3-opacity"> 
+    <img src="./images/etiqueta.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:40px">
+    <p><span class="w3-large w3-margin-right">Incorpora etiquetas</span> Canvas 2D y 3D, audio, vídeo</p>
+    <p>Para mostrar los contenidos multimedia. Actualmente hay una lucha entre imponer codecs libres </p><br>
+    
+    <img src="./images/etiqueta.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:40px">
+    <p><span class="w3-large w3-margin-right">Etiquetas para manejar grandes conjuntos de datos</span>Datagrid, Details, Menu y Command.</p>
+    <p>Permiten generar tablas dinámicas que pueden filtrar, ordenar y ocultar contenido en cliente.</p>
+  
+    <img src="./images/etiqueta.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:40px">
+    <p><span class="w3-large w3-margin-right">Mejoras en los formularios.</span>Nuevos tipos de datos (eMail, number, url, datetime …) </p>
+    <p>Facilidades para validar el contenido sin Javascript.</p>
+    
+    <img src="./images/etiqueta.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:40px">
+    <p><span class="w3-large w3-margin-right">Visores</span>MathML (fórmulas matemáticas) y SVG (gráficos vectoriales)</p>
+    <p>En general se deja abierto a poder interpretar otros lenguajes XML.</p>
+    <!-- End Introducción Section -->
+  </div>
+  
+  <div class="w3-padding-64 w3-content" id="ejemplos">
+    <h2 class="w3-text-light-grey">Diferentes Ejemplos</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="./images/Codigo1.PNG" style="width:100%">
+        <img src="./images/Codigo2.PNG" style="width:100%">
+        <img src="./images/Codigo3.PNG" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="./images/Codigo4.PNG" style="width:100%">
+        <img src="./images/Codigo5.PNG" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <p class="w3-medium">Referencias <a href="https://es.wikipedia.org/wiki/HTML5#:~:text=HTML5%20establece%20una%20serie%20de,web)%20y%20." target="_blank" class="w3-hover-text-green">Wikipedia</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
